@@ -1,0 +1,69 @@
+.l {
+color: rgb(18, 124, 216);
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+font-stretch: extra-expanded;
+letter-spacing: 3px;
+text-decoration-line: underline;
+text-decoration-color: aqua;
+text-decoration-style: dashed;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.ttf') format('truetype'),
+          url('fonts/icomoon.woff') format('woff'),
+          url('fonts/icomoon.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .icomoon {
+    font-family: 'icomoon';
+    margin-right: 10px;
+    font-style: normal;
+    font-size: 150%;
+  }
+.blok {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    box-shadow: 3px 3px 12px rgb(107, 107, 107);
+    display: inline-block;
+    margin-right: 20px;
+}
+.ima {
+   text-align: center; 
+    width: 55%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 92%;
+    box-shadow: 0 1px 12px rgb(107, 107, 107);
+    border: 2px solid white;
+}
+.k {
+    
+    padding-left:20px;
+    padding-right: 20px;
+    font: Verdana;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.idk {
+     text-align: center;
+     height: 30%;
+}
+.b {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+p {
+    display: flex;
+    align-items: center;
+}
+.pozadi {
+  background-image: url(imgs/bg.webp);
+}
