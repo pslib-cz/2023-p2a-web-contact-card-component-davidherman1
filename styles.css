@@ -21,6 +21,14 @@ text-decoration-style: dashed;
     margin-right: 10px;
     font-style: normal;
     font-size: 150%;
+
+  }
+  .icomoon2 {
+    font-family: 'icomoon';
+    margin-right: 10px;
+    font-style: normal;
+    font-size: 150%;
+    color: red;
   }
 .blok {
     width: 300px;
@@ -66,4 +74,9 @@ p {
 }
 .pozadi {
   background-image: url(imgs/bg.webp);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.idk {
+  text-align: center;
 }
